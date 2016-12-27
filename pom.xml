@@ -7,9 +7,25 @@
     <artifactId>vertabelo-maven-plugin</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
-
+    <description>>Vertabelo API Maven Plugin</description>
     <name>Vertabelo Maven Plugin</name>
-
+    <url>
+        https://github.com/Vertabelo/vertabelo-api-maven-plugin
+    </url>
+    <licenses>
+        <license>
+        <name>Apache License Version 2.0</name>
+        <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>amoscicki</id>
+            <name>Adam Mościcki</name>
+            <email>amoscicki@vertebelo.com</email>
+        </developer>
+    </developers>
     <scm>
         <connection>
         scm:git:https://github.com/Vertabelo/vertabelo-api-maven-plugin.git
