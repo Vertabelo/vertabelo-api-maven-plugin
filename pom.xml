@@ -5,7 +5,7 @@
 
     <groupId>com.vertabelo.maven</groupId>
     <artifactId>vertabelo-maven-plugin</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
 
     <name>Vertabelo Maven Plugin</name>
@@ -96,6 +96,15 @@
                         <phase>process-classes</phase>
                     </execution>
                 </executions>
+            </plugin>
+             <plugin>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.2</version>
+                <configuration>
+                    <tagBase>
+                        https://github.com/Vertabelo/vertabelo-api-maven-plugin/tags
+                    </tagBase>
+                </configuration>
             </plugin>
         </plugins>
     </build>
