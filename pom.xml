@@ -15,7 +15,7 @@
         scm:git:https://github.com/Vertabelo/vertabelo-api-maven-plugin.git
         </connection>
         <developerConnection>
-        scm:git:git@github.com:Vertabelo/vertabelo-api-maven-plugin.git
+        scm:git:https://github.com/Vertabelo/vertabelo-api-maven-plugin.git
         </developerConnection>
         <url>
         https://github.com/Vertabelo/vertabelo-api-maven-plugin.git
