@@ -5,9 +5,9 @@
 
     <groupId>com.vertabelo.maven</groupId>
     <artifactId>vertabelo-maven-plugin</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>maven-plugin</packaging>
-    <description>>Vertabelo API Maven Plugin</description>
+    <description>&gt;Vertabelo API Maven Plugin</description>
     <name>Vertabelo Maven Plugin</name>
     <url>
         https://github.com/Vertabelo/vertabelo-api-maven-plugin
@@ -36,7 +36,8 @@
         <url>
         https://github.com/Vertabelo/vertabelo-api-maven-plugin.git
         </url>
-    </scm>
+      <tag>vertabelo-maven-plugin-1.0.0</tag>
+  </scm>
 
     <dependencies>
         <dependency>
